@@ -1,0 +1,35 @@
+/* Universal selector, setting the font for the page*/
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+/* Element Selectors, setting the background for the page */
+body {
+  background-color: lemonchiffon;
+}
+
+/* Header and footer  */
+header,
+footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  color: #f0ead6;
+  background-color: #191970;
+}
+
+/* For image */
+figure {
+  width: 200px;
+  background-color: #f0ead6;
+}
+
+/* Making text bold */
+.highlighted-text {
+  font-weight: bolder;
+}
+
+/* Specifically changing one section's background*/
+#contact-section {
+  background-color: #f0ead6;
+}

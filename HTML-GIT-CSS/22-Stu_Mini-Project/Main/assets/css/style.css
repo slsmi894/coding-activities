@@ -1,0 +1,126 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+    color: darkgray;
+}
+h1,
+h2 {
+    margin: 45px;
+}
+
+main {
+   padding: 60px 0;
+    
+}
+li {
+    display: inline;
+    padding: 20px;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: lightblue;
+    
+}
+header, 
+footer {
+    height: 60px;
+    background-color: rgb(65, 18, 175);
+    padding: 15px;
+    width: 100%;
+    
+}
+
+
+header {
+    position: fixed;
+    border-bottom: 10px solid palevioletred;
+}
+footer {
+    position: absolute;
+    margin-top: 0;
+    bottom: 0;
+    border-bottom: 10px solid darkgray;
+}
+figure {
+    margin-bottom: 40px;
+    border: 20px double beige;
+    height: 25vh;
+      
+}
+
+figcaption img {
+      display: block;
+      margin: 20px auto;
+      width: 50%;
+  }
+section{
+      margin-bottom: 0;
+      padding: 20px 10px 40px 10px;
+      border-top: 3px solid beige;
+      background-color: 20px double beige;
+  }
+
+form {
+    
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 500px;
+    /* Form outline */
+    padding: 10px;
+    border: 5px solid beige;
+    border-radius: 20px;
+    
+  }
+
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 100px;
+    
+  }
+  
+input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+   textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 60px;
+  }
+
+
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    height: 40px;
+    width: 120px;
+    background-color: saddlebrown;
+    color: darkblue;
+  }
+
+.section-site {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}

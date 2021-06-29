@@ -1,0 +1,24 @@
+/* Specifying size of each section */
+.section {
+    width: 200px;
+    height: 100px;
+  }
+ /* Adding color background and font */ 
+.section-blue {
+background-color: blue;
+color: orange;
+}
+ /* Adding color background and font */ 
+.container {
+background-color: black;
+color: white;
+}
+/* Adding color background and font */
+#section-1 {
+background-color: purple;
+color: yellow;
+}
+/* Adding color to font */
+#section-6 {
+color: yellow;
+}
